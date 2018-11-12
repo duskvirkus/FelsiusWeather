@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+
+	<!--
+	Local Weather Felsius
+	by Fi Graham
+
+	Felsius is an average of Celsius and Fahrenheit a satirical temperature measurement. Inspired by the webcomic xkcd, felsius comic. Thanks to the creators of open weather api and xkcd font.
+
+	Licence: MIT Licence
+	-->
+
+	<!--CSS-->
+	<link rel="stylesheet" href="LocalWeatherFelsiusStyles.css">
+
+	<!--jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!--JavaScript-->
+    <script src="LocalWeatherFelsiusJS.js"></script>
+
+<meta charset="utf-8">
+<title>Local Felsius Weather</title>
+</head>
+<body>
+
+	<div class="mobile">
+		<p>Mobile not avalible. Sorry please consider visiting on a laptop or desktop.</p>
+	</div>
+
+	<header>
+		<div class="container">
+			<div class="box">
+				<div class="header">
+					<h2>Local Felsius Weather</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="box">
+				<div class="icon-display">
+					<span class="icon-value">loading... please make sure geolocation is turned on</span>
+					<span class="caption-value"></span>
+				</div>
+				<div class="felsius-display">
+					<h2 class="felsius-h2">
+						<span class="location-value"></span>
+					</h2>
+					<h1 class="felsius-h1">
+						<span class="felsius-value"></span>
+					</h1>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="box">
+				<div class="footer">
+					<h3>About:</h3>
+					<p>Felsius is an average of Celsius and Fahrenheit a satirical temperature measurement. <a href="https://github.com/figraham/FelsiusWeather">Github</a> for this project. Made by <a href="https://figraham.github.io">Fi Graham</a>.</p>
+					<h3>Inspired By:</h3>
+					<p>The <a href="https://xkcd.com/">xkcd webcomic</a>, by Randall Munroe, in particular the <a href="https://xkcd.com/1923/">felsius comic</a>.</p>
+					<h3>Made With:</h3>
+					<p>Used the <a href="https://openweathermap.org/api">Open Weather API</a> and the <a href="https://github.com/ipython/xkcd-font">xkcd script font</a> thanks to <a href="https://ipython.org/index.html">IPython</a>.</p>
+<!--
+					<p>Soical Media:</p>
+					<ul>
+						<li><a href="https://github.com/httpwilfred">Github</a></li>
+						<li><a href="http://httpwilfred.tumblr.com/">Tumblr</a></li>
+						<li><a href="https://www.instagram.com/httpwilfred/">Instagram</a></li>
+						<li><a href="https://giphy.com/channel/httpwilfred">Giphy</a></li>
+						<li><a href="https://www.behance.net/Wilfred-Graham">Behance</a></li>
+						<li><a href="https://www.linkedin.com/in/wilfred-graham-836703151">Linked In</a></li>
+					</ul>
+-->
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
